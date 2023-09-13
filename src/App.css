@@ -1,0 +1,19 @@
+@font-face{
+    src: url(fonts/Quicksand-VariableFont_wght.ttf);
+    font-family: Quicksand;
+}
+
+html, body, #root{
+    all: unset;
+    height: 100vh;
+    font-family: Quicksand;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
