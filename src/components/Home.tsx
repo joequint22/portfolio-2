@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import Killua from '../assets/killua-profile.png'
 import { IoIosArrowForward } from 'react-icons/io'
 

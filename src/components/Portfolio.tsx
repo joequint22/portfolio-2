@@ -1,6 +1,6 @@
-import * as React from "react";
+import React from "react";
 import killua from "../assets/killua-picture.png";
-import ButtonComponent from './Buttons'
+import ProjectComponent from './Project'
 
 
 type TPortfolio = {
@@ -66,21 +66,12 @@ export default function Portfolio() {
         <p className="py-6">Check out some of my work right here</p>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {portfolio.map(({id, src, demo, code}) => (
-            <div
-              key={id}
-              className="shadow-md shadow-gray-600 rounded-lg"
-            >
-              <img
-                className="rounded-md duration-200 hover:scale-110"
+            <ProjectComponent 
+                id={id}
                 src={src}
-                alt="project picture"
-              />
-
-              <div className="flex justify-center items-center ">
-                <ButtonComponent url={demo} textContent='Demo' />
-                <ButtonComponent url={code} textContent='Code' />
-              </div>
-            </div>
+                demo={demo}
+                code={code}
+            />
           ))}
         </div>
       </div>

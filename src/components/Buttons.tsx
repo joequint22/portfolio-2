@@ -1,19 +1,17 @@
-import * as React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react'
 
 
 const Buttons = (props: { url: string, textContent: string}) => {
     
-    const navigate = useNavigate();
 
    const handleButtonClick = (url: string) => {
-        navigate(url);
+       window.open(url, '_blank')
    }
 
   return (
-        <div className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+        <div className="w-1/2 text-center py-3 m-4 duration-200 hover:scale-110">
             <button onClick={() => handleButtonClick(props.url)}>
-                Go to {props.textContent}
+                {props.textContent}
             </button>
         </div>
 
