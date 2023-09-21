@@ -13,7 +13,7 @@ export default function Home() {
           </h2>
 
           <p className='text-gray-500 py-4 max-w-md '> 
-            I went to school for applied economics & mathematics, and left a programmer. I am an aspiring web developer with a passion for front end development. And as a former student-athlete from Ursinus College, I take pride in my work ethic & adaptibility while continuously improving my skillset as a developer.
+            I went to school for applied economics & mathematics, and left a programmer. An aspiring web developer with a passion for front end development. And as a former student-athlete from Ursinus College, I take pride in my work ethic & adaptibility while continuously improving my skillset as a software developer.
           </p>
 
           <div> 
