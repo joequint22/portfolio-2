@@ -1,11 +1,10 @@
-import React from 'react'
 import Killua from '../assets/killua-profile.png'
 import { IoIosArrowForward } from 'react-icons/io'
 
 
 export default function Home() {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+    <div id="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
 
       <div className='max-w-screen-lg relative  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>

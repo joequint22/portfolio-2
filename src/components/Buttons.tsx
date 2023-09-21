@@ -1,4 +1,3 @@
-import React from 'react'
 
 
 const Buttons = (props: { url: string, textContent: string}) => {
