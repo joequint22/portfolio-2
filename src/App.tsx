@@ -1,42 +1,23 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Nav from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
-
-// type Data = {
-//   [key: string]: unknown;
-// }
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import SocialLinks from './components/SocialLinks'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
   
-  // const [githubData, setGithubData] = useState<Data[]>([])
-  // const [githubUser, setGithubUser] = useState<string>("joequint22")
-  // const [projects, setProjects] = useState<object[]>([])
-
-  // const fetchData = () => {
-  //       fetch(`http://api.github.com/users/${githubUser}`)
-  //       .then(res => res.json())
-  //       .then(data => setGithubData(data))            
-  //     }
-
-  //     useEffect(() => {
-  //         fetchData()
-  //     }, [])
-  
-
-  //     const repos = githubData.public_repos
-  
-  //     console.log(repos)
- 
-  
   return (
     <>
-        <div className="App px-10 bg-slate-400 min-h-screen">
-            <Nav />
-            <Main />
-            <Footer />
+        <div className="App ">
+          <Navbar />
+          <Home />
+          <About />
+          <Portfolio />
+
+          <SocialLinks />
         </div>
     </>
   )

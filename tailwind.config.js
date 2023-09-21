@@ -6,8 +6,19 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '30': '30deg',
+        '60': '60deg',
+      },
+    },
+    fontFamily: {
+      signature: ['Poppins'],
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-3d'): NodeRequire
+
+  ],
 }
 
