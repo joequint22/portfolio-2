@@ -71,7 +71,7 @@ export default function Portfolio() {
             Portfolio
           </p>
           <div className="py-8 px-4 text-xl italic">
-            The portfolio displays progression throughout each application
+            Displays a progression throughout each application
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
             {portfolio.map(({ id, src, demo, code, title }) => (

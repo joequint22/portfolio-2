@@ -4,6 +4,7 @@ const Buttons = (props: { url: string, textContent: string}) => {
     
 
    const handleButtonClick = (url: string) => {
+    
        window.open(url, '_blank')
    }
 
