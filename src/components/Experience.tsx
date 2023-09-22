@@ -9,6 +9,7 @@ import javascript from '../assets/javascript.png'
 import github from '../assets/github.png'
 import XpCard from './XpCard'
 import bootstrap from '../assets/bootstrap.png'
+import vercel from '../assets/vercel.png'
 
 
 type TExperience = {
@@ -45,16 +46,9 @@ const Experience = () => {
 
 
         },
+        
         {
             id: 4,
-            src: git,
-            text: 'Git',
-            style: 'shadow-orange-600'
-
-
-        },
-        {
-            id: 5,
             src: github,
             text: 'Github',
             style: 'shadow-white',
@@ -62,15 +56,18 @@ const Experience = () => {
 
 
         },
-        {
-            id: 6,
-            src: sass,
-            text: 'SASS',
-            style: 'shadow-pink-500 ',
-            sassStyle: 'mt-14'
+
+{
+            id: 5,
+            src: git,
+            text: 'Git',
+            style: 'shadow-orange-600'
 
 
         },
+
+
+        
         {
             id: 7,
             src: bootstrap,
@@ -80,6 +77,17 @@ const Experience = () => {
 
 
         },
+{
+            id: 6,
+            src: sass,
+            text: 'SASS',
+            style: 'shadow-pink-500 ',
+            sassStyle: 'mt-14'
+
+
+        },
+
+
         {
             id: 8,
             src: javascript,
@@ -103,6 +111,14 @@ const Experience = () => {
             
 
         },
+        {
+            id: 11,
+            src: vercel,
+            text: 'Versel',
+            style: 'shadow-black'
+            
+
+        },
         
     ]
 
@@ -112,10 +128,10 @@ const Experience = () => {
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 py-2 inline'>Experience</p>
-                <p className='py-12'></p>
+                <p className='py-12 text-xl'>Familiar with these technologies...</p>
             </div>
 
-            <div className="w-full place-items-center px-8 grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-0">
+            <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
                 {experience.map(({id, src, text, style, sassStyle}) => {
                     return <XpCard sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
                 })}
