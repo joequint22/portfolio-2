@@ -1,6 +1,6 @@
 import killua from "../assets/killua-picture.png";
 import ProjectComponent from './Project'
-import todo-list from '../assets/todo-list.png'
+import todoList from '../assets/todo-list.png'
 
 
 type TPortfolio = {
@@ -46,7 +46,7 @@ export default function Portfolio() {
     },
     {
       id: 6,
-      src: todo-list,
+      src: todoList,
       demo: "https://todo-list-five-gold.vercel.app/",
       code: "https://github.com/joequint22/todo-2.git",
     },
