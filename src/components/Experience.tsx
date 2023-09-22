@@ -8,12 +8,15 @@ import sass from '../assets/sass.png'
 import javascript from '../assets/javascript.png'
 import github from '../assets/github.png'
 import XpCard from './XpCard'
+import bootstrap from '../assets/bootstrap.png'
 
 
 type TExperience = {
     id: number;
     src: string
     text: string;
+    style: string;
+    sassStyle?: string
 }
 
 const Experience = () => {
@@ -22,72 +25,103 @@ const Experience = () => {
         {
             id: 1,
             src: typescript,
-            text: 'Typescript'
+            text: 'Typescript',
+            style: 'shadow-sky-600'
+
         },
         {
             id: 2,
             src: react,
-            text: 'ReactJS'
+            text: 'React JS',
+            style: 'shadow-blue-600'
+
 
         },
         {
             id: 3,
             src: tailwindcss,
-            text: 'TailwindCSS'
+            text: 'Tailwind CSS',
+            style: 'shadow-sky-400'
+
 
         },
         {
             id: 4,
             src: git,
-            text: 'Git'
+            text: 'Git',
+            style: 'shadow-orange-600'
+
 
         },
         {
             id: 5,
             src: github,
-            text: 'Github'
+            text: 'Github',
+            style: 'shadow-white',
+            
+
 
         },
         {
             id: 6,
             src: sass,
-            text: 'SASS'
+            text: 'SASS',
+            style: 'shadow-pink-500 ',
+            sassStyle: 'mt-14'
+
 
         },
         {
             id: 7,
+            src: bootstrap,
+            text: 'Bootstrap',
+            style: 'shadow-purple-600 ',
+            sassStyle: 'mt-14'
+
+
+        },
+        {
+            id: 8,
             src: javascript,
-            text: 'Javascript'
+            text: 'Javascript',
+            style: 'shadow-yellow-500'
 
         },
         {
             id: 9,
             src: css,
-            text: 'CSS'
+            text: 'CSS',
+            style: 'shadow-blue-500'
+
 
         },
         {
             id: 10,
             src: html,
-            text: 'HTML'
+            text: 'HTML',
+            style: 'shadow-orange-500'
+            
+
         },
         
     ]
 
   return (
-    <div>
-        <div>
+    <div className='bg-gradient-to-b from-gray-800 to-black w-full h-full '>
+
+        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
-                <p>Experience</p>
-                <p>The following are the technologies I've worked with</p>
+                <p className='text-4xl font-bold border-b-4 border-gray-500 py-2 inline'>Experience</p>
+                <p className='py-12'></p>
             </div>
 
-            <div>
-                {experience.map(({id, src, text}) => {
-                    return <XpCard id={id} src={src} text={text} />
+            <div className="w-full place-items-center px-8 grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-0">
+                {experience.map(({id, src, text, style, sassStyle}) => {
+                    return <XpCard sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
                 })}
             </div>
         </div>
+
     </div>
   )
 }

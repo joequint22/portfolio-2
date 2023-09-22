@@ -12,7 +12,7 @@ const Project = (props: TProject) => {
   return (
     <div
               key={props.id}
-              className="shadow-md shadow-gray-600 rounded-lg"
+              className="shadow-sm shadow-gray-200 rounded-lg"
             >
               <img
                 className="rounded-md duration-200 hover:scale-110"
