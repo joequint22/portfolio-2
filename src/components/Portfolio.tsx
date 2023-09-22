@@ -22,32 +22,32 @@ export default function Portfolio() {
     {
       id: 2,
       src: killua,
-      demo: "https://joequint22.github.io/techdegree-project-4/",
-      code: "https://github.com/joequint22/techdegree-project-4.git",
+      demo: " https://joequint22.github.io/techdegree-project-5/",
+      code: "https://github.com/joequint22/techdegree-project-5.git",
     },
     {
       id: 3,
       src: killua,
-      demo:"https://joequint22.github.io/techdegree-project-4/",
-      code: "https://github.com/joequint22/techdegree-project-4.git",
+      demo:"https://joequint22.github.io/techdegree-project-6/",
+      code: "https://github.com/joequint22/techdegree-project-6.git",
     },
     {
       id: 4,
       src: killua,
-      demo: "https://joequint22.github.io/techdegree-project-4/",
-      code: "https://github.com/joequint22/techdegree-project-4.git",
+      demo: " https://joequint22.github.io/techdegree-project-7/",
+      code: "https://github.com/joequint22/techdegree-project-7.git",
     },
     {
       id: 5,
       src: killua,
-      demo: "https://joequint22.github.io/techdegree-project-4/",
-      code: "https://github.com/joequint22/techdegree-project-4.git",
+      demo: "https://joequint22.github.io/techdegree-project-8/",
+      code: "https://github.com/joequint22/techdegree-project-8.git",
     },
     {
       id: 6,
       src: killua,
-      demo: "https://joequint22.github.io/techdegree-project-4/",
-      code: "https://github.com/joequint22/techdegree-project-4.git",
+      demo: "https://joequint22.github.io/todo-2/",
+      code: "https://github.com/joequint22/todo-2.git",
     },
   ];
 
