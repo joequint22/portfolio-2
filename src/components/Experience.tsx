@@ -57,12 +57,11 @@ const Experience = () => {
 
         },
 
-{
-            id: 5,
-            src: git,
-            text: 'Git',
-            style: 'shadow-orange-600'
-
+        {
+            id: 8,
+            src: javascript,
+            text: 'Javascript',
+            style: 'shadow-yellow-500'
 
         },
 
@@ -77,7 +76,8 @@ const Experience = () => {
 
 
         },
-{
+
+        {
             id: 6,
             src: sass,
             text: 'SASS',
@@ -87,12 +87,12 @@ const Experience = () => {
 
         },
 
-
         {
-            id: 8,
-            src: javascript,
-            text: 'Javascript',
-            style: 'shadow-yellow-500'
+            id: 5,
+            src: git,
+            text: 'Git',
+            style: 'shadow-orange-600'
+
 
         },
         {
