@@ -18,8 +18,9 @@ export default function Home() {
           </p>
 
           <div className='pt-16 pb-16'> 
+            
+            <a href="#portfolio">
             <button
-              onClick={`${'#portfolio'}`}
               className='group ml-1 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'
             >Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
@@ -28,6 +29,8 @@ export default function Home() {
                 size={15}/>
               </span>
             </button>
+            </a>
+
           </div>
         </div>
 
