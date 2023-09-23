@@ -65,7 +65,7 @@ const inputFields: TInputField[] = [
               
               <div>
               {inputFields.map( ({id, htmlFor, name, placeholder, type, title}) => {
-               return <UserInput id={id} htmlFor={htmlFor} name={name} placeholder={placeholder} type={type} title={title} />
+               return <UserInput key={id} htmlFor={htmlFor} name={name} placeholder={placeholder} type={type} title={title} />
               })}
               </div>
 
