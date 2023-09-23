@@ -1,4 +1,3 @@
-import killua from "../assets/killua-picture.png";
 import ProjectComponent from "./Project";
 import todoList from "../assets/todo-list.png";
 import circles from "../assets/circles.png";
