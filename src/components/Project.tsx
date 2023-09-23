@@ -41,5 +41,5 @@ const Project = (props: TProject) => {
       </div>
 )
 }
-
+`~`
 export default Project
