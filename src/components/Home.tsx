@@ -4,7 +4,7 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 export default function Home() {
   return (
-    <div name="home" className='h-full
+    <div id="home" className='h-full
      w-full bg-gradient-to-b from-black via-black to-gray-900'>
 
       <div className='max-w-screen-lg  py-36 relative mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
