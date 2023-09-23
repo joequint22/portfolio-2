@@ -27,7 +27,7 @@ const Project = (props: TProject) => {
         />
         
         <div className="flex justify-center h-18 items-center ">
-          {props.id === 1 ? 
+        {props.id === 1 ? 
             
               <ButtonComponent
                 url={'/resume.pdf'}
