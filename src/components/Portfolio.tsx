@@ -35,10 +35,14 @@ export default function Portfolio() {
   const portfolio: TPortfolio[] = [
     {
       id: 1,
-      src: directory,
-      title: "Employee Search Directory",
-      demo: "https://joequint22.github.io/techdegree-project-8/",
-      code: "https://github.com/joequint22/techdegree-project-8.git",
+      src: portPic,
+      title: "Portfolio's code",
+      download: true,
+      href: "/resume.pdf",
+      target: '_blank',
+      rel: 'noreferrer',
+      demo: "https://joequint22.github.io/techdegree-project-6/",
+      code: "https://github.com/joequint22/portfolio-2.git",
     },
     {
       id: 2,
@@ -49,15 +53,12 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      src: portPic,
-      title: "Portfolio's code",
-      download: true,
-      href: "/resume.pdf",
-      target: '_blank',
-      rel: 'noreferrer',
-      demo: "https://joequint22.github.io/techdegree-project-6/",
-      code: "https://github.com/joequint22/portfolio-2.git",
+      src: directory,
+      title: "Employee Search Directory",
+      demo: "https://joequint22.github.io/techdegree-project-8/",
+      code: "https://github.com/joequint22/techdegree-project-8.git",
     },
+    
     {
       id: 4,
       src: hangman,
