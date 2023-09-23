@@ -1,6 +1,5 @@
 import ProjectComponent from "./Project";
 import todoList from "../assets/todo-list.png";
-import circles from "../assets/circles.png";
 import gallery from "../assets/gallery.png";
 import hangman from "../assets/hangman.png";
 import dashboard from "../assets/dashboard.png";
