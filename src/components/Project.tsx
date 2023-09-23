@@ -13,7 +13,7 @@ const Project = (props: TProject) => {
   return (
     <div
               key={props.id}
-              className=" shadow-black shadow-lg grid text-center justify-between rounded-lg"
+              className=" shadow-gray-400 shadow-sm grid text-center justify-between rounded-lg"
             >
               <div className='text-md text-white py-4 mx-auto'>{props.title}</div>
               <img

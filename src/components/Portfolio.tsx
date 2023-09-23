@@ -65,15 +65,15 @@ export default function Portfolio() {
       id="portfolio"
       className="bg-gradient-to-b via-black from-black to-gray-900 w-full text-white md:min-h-screen"
     >
-      <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg shadow-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
         <div >
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-gray-500">
             Portfolio
           </p>
           <div className="py-8 px-4 italic">
             The portfolio displays the progression ... 
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-6 ">
             {portfolio.map(({ id, src, demo, code, title }) => (
               <ProjectComponent
                 id={id}
