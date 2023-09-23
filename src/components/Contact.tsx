@@ -2,6 +2,7 @@
 import UserInput from './userInput'
 
 type TInputField = {
+  id: number,
   htmlFor: string;
   name: string;
   placeholder: string;
@@ -14,6 +15,7 @@ const Contact = () => {
 
 const inputFields: TInputField[] = [
   {
+    id: 1,
     htmlFor: 'fName',
     name: 'fName',
     placeholder: 'e. g. George',
@@ -21,6 +23,7 @@ const inputFields: TInputField[] = [
     title: 'First Name'
   },
   {
+    id: 2,
     htmlFor: 'lName',
     name: 'lName',
     placeholder: 'e. g. Michael',
@@ -28,6 +31,7 @@ const inputFields: TInputField[] = [
     title: "Last Name"
   },
   {
+    id: 3,
     htmlFor: 'email',
     name: 'email',
     placeholder: 'yourname@example.com',
@@ -60,8 +64,8 @@ const inputFields: TInputField[] = [
               </div>
               
               <div>
-              {inputFields.map( ({htmlFor, name, placeholder, type, title}) => {
-               return <UserInput htmlFor={htmlFor} name={name} placeholder={placeholder} type={type} title={title} />
+              {inputFields.map( ({id, htmlFor, name, placeholder, type, title}) => {
+               return <UserInput id={id} htmlFor={htmlFor} name={name} placeholder={placeholder} type={type} title={title} />
               })}
               </div>
 
