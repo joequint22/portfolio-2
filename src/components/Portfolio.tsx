@@ -36,7 +36,7 @@ export default function Portfolio() {
     {
       id: 1,
       src: portPic,
-      title: "Portfolio's code",
+      title: "My Portfolio",
       download: true,
       href: "/resume.pdf",
       target: '_blank',
