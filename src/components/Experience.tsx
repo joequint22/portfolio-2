@@ -128,7 +128,7 @@ const Experience = () => {
         <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</p>
-                <p className='py-12 px-4 text-xl italic'>Delved within the following technologies...</p>
+                <p className='py-12 px-4 text-xl italic'>Delved into the following technologies...</p>
             </div>
 
             <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
