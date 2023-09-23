@@ -123,7 +123,7 @@ const Experience = () => {
     ]
 
   return (
-    <div className='bg-gradient-to-b from-gray-800 to-black w-full h-full '>
+    <div className='bg-gradient-to-b via-black from-gray-900 to-black w-full h-full '>
 
         <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
