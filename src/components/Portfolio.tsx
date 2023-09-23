@@ -104,7 +104,7 @@ export default function Portfolio() {
             Portfolio
           </p>
           <div className="py-8 text-xl px-4 italic">
-            Below, displays my progression throughout the journey 
+            Below, displays the progression throughout my journey 
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-6 ">
             {portfolio.map(({ id, src, demo, code, title }) => (
