@@ -56,7 +56,7 @@ const inputFields: TInputField[] = [
             <div>
 
               <div className="py-12">
-                Share your contact information below, and let's work together!
+    ``         Share your contact information below, and let's work together!
               </div>
               
               <div>

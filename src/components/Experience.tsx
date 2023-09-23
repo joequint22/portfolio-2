@@ -131,7 +131,7 @@ const Experience = () => {
                 <p className='py-12 px-4 text-xl italic'>Delved within the following technologies...</p>
             </div>
 
-            <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
+            <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
                 {experience.map(({id, src, text, style, sassStyle}) => {
                     return <XpCard sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
                 })}
