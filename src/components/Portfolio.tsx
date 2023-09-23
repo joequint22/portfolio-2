@@ -1,3 +1,4 @@
+import killua from "../assets/killua-picture.png";
 import ProjectComponent from "./Project";
 import todoList from "../assets/todo-list.png";
 import circles from "../assets/circles.png";
@@ -63,15 +64,15 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:min-h-screen"
     >
-      <div className="max-w-screen-lg mx-auto  py-24 p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
         <div >
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <div className="py-8 px-4 text-xl italic">
-            Displays a progression throughout each application
+          <div className="py-8 px-4 italic">
+            The portfolio displays the progression ... 
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
             {portfolio.map(({ id, src, demo, code, title }) => (
