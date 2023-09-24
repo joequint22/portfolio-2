@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div id="navbar" className='flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky z-50 top-0 '>
        <div>
-            <h1 className='text-cyan-400 text-xl font-signature ml-2'>JOSEPH QUINTILIANO</h1>
+            <h1 className='text-white text-xl font-signature ml-2'>JOSEPH QUINTILIANO</h1>
         </div>
 
         <ul className="hidden md:flex">

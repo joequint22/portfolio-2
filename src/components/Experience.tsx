@@ -123,11 +123,11 @@ const Experience = () => {
     ]
 
   return (
-    <div id="experience" className='bg-gradient-to-b via-black from-gray-900 to-black w-full h-full '>
+    <div id="experience" className='bg-black w-full h-full '>
 
         <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-2 border-white'>Experience</p>
                 <p className='py-12 px-4 text-xl italic'>Delved into the following technologies...</p>
             </div>
 

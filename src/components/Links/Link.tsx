@@ -4,7 +4,7 @@ const Link = (props: {id: number, link: string}) => {
     <a href={`#${props.link}`}>
       <li
         key={props.id}
-        className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200"
+        className="px-4 gap-3 cursor-pointer capitalize font-medium text-white hover:scale-110 duration-200"
       >
         {props.link}
       </li>

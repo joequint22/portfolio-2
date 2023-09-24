@@ -37,12 +37,12 @@ const Contact = () => {
   ];
 
   return (
-    <div id="contact" className="bg-gradient-to-b from-black via-black to-gray-800 w-full text-white min-h-screen">
+    <div id="contact" className="bg-black w-full text-white min-h-screen">
       <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p
             className="text-4xl 
-                    font-bold border-b-4 border-gray-500 inline"
+                    font-bold border-b-2 border-white inline"
           >
             Contact
           </p>
@@ -69,11 +69,12 @@ const Contact = () => {
                     );
                   }
                 )}
-                <button className=" bg-gradient-to-b py-3 my-8 w-full mx-auto from-cyan-500 to-blue-500 px-6 duration-300 hover:scale-105 rounded-lg shadow-lg ">
-                Submit
-              </button>
+                <div className="grid place-items-center">
+                  <button className=" py-3 my-8 w-full  hover:text-black duration-300 hover:bg-green-200 hover:scale-105 rounded-lg shadow-lg ">
+                  Submit
+                </button>
+              </div>
 
-              
           </form>
         </div>
       </div>

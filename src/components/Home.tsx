@@ -1,11 +1,11 @@
-import Killua from '../assets/killua-profile.png'
+import Birds from '../assets/birds.png'
 import { IoIosArrowForward } from 'react-icons/io'
 
 
 export default function Home() {
   return (
     <div id="home" className='h-full
-     w-full bg-gradient-to-b from-black via-black to-gray-900'>
+     w-full bg-black'>
 
       <div className='max-w-screen-lg py-36 relative mx-auto text-center sm:text-left flex flex-col items-center justify-center h-full px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>
@@ -21,7 +21,7 @@ export default function Home() {
             
             <a href="#portfolio">
             <button
-              className='group ml-1 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'
+              className='group hover:scale-105 duration-200 top-25 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r border-2 shadow-md border-green-200 '
             >Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
                 <IoIosArrowForward 
@@ -36,7 +36,7 @@ export default function Home() {
 
         <div>
           <img 
-            src={Killua} 
+            src={Birds} 
             alt="profile" 
             className=" mx-auto rounded-full w-2/3 md:w-full"
             />
