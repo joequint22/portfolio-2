@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import ProjectComponent from "./Project";
 import todoList from "../assets/todo-list.png";
 import gallery from "../assets/gallery.png";
