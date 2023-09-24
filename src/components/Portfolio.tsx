@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from 'react'
 import ProjectComponent from "./Project";
 import todoList from "../assets/todo-list.png";
 import gallery from "../assets/gallery.png";
@@ -29,10 +30,11 @@ type TPortfolio = {
 // };
 
 
-    
+  
 
 export default function Portfolio() {
-  const portfolio: TPortfolio[] = [
+
+  const portfolioData: TPortfolio[] = [
     {
       id: 1,
       src: portPic,
@@ -81,6 +83,15 @@ export default function Portfolio() {
       demo: " https://joequint22.github.io/techdegree-project-5/",
       code: "https://github.com/joequint22/techdegree-project-5.git",
     },
+  ]
+
+  const [portfolio, setPortfolio] = useState<TPortfolio[]>([])
+
+
+
+  useEffect(() => {
+    setPortfolio(portfolioData)
+  }, [portfolioData])
     
     
     // {
@@ -91,8 +102,6 @@ export default function Portfolio() {
     //   code: "https://github.com/joequint22/techdegree-project-4.git",
     // },
     
-    
-  ];
 
   return (
     <div
