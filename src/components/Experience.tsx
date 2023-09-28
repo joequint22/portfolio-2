@@ -48,14 +48,6 @@ const Experience = () => {
         },
         {
             id: 4,
-            src: vite,
-            text: 'Vite',
-            style: 'shadow-yellow-300'
-            
-
-        },
-        {
-            id: 5,
             src: github,
             text: 'Github',
             style: 'shadow-white',
@@ -65,7 +57,7 @@ const Experience = () => {
         },
 
         {
-            id: 6,
+            id: 5,
             src: javascript,
             text: 'Javascript',
             style: 'shadow-yellow-500'
@@ -75,7 +67,7 @@ const Experience = () => {
 
         
         {
-            id: 8,
+            id: 6,
             src: bootstrap,
             text: 'Bootstrap',
             style: 'shadow-purple-600 ',
@@ -85,7 +77,7 @@ const Experience = () => {
         },
 
         {
-            id: 9,
+            id: 7,
             src: sass,
             text: 'SASS',
             style: 'shadow-pink-500 ',
@@ -95,15 +87,16 @@ const Experience = () => {
         },
 
         {
-            id: 10,
+            id: 8,
             src: git,
             text: 'Git',
             style: 'shadow-orange-600'
 
 
         },
+        
         {
-            id: 11,
+            id: 9,
             src: css,
             text: 'CSS',
             style: 'shadow-blue-500'
@@ -111,10 +104,17 @@ const Experience = () => {
 
         },
         {
-            id: 12,
+            id: 10,
             src: html,
             text: 'HTML',
-            style: 'shadow-orange-500'
+            style: 'shadow-orange-500' 
+
+        },
+        {
+            id: 11,
+            src: vite,
+            text: 'Vite',
+            style: 'shadow-yellow-300'
             
 
         },

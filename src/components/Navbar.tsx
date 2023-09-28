@@ -20,16 +20,16 @@ const Navbar = () => {
         },
         {
             id: 2,
-            link: '#about'
+            link: 'about'
         },
         {
             id: 3,
-            link: "experience"
+            link: "portfolio"
         },
 
         {
             id: 4,
-            link: "portfolio"
+            link: "experience"
         },
         
         {
