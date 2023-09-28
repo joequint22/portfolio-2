@@ -4,6 +4,7 @@ import SocialLinks from './components/SocialLinks'
 import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import About from './components/About'
 
 function App() {
 
@@ -11,10 +12,12 @@ function App() {
   return (
     <>
         <div className="App">
-          <Navbar />
+            <Navbar />
             <Home />
+            <About /> 
             <Portfolio />
             <Experience />
+           
             <Contact />
 
           <SocialLinks />

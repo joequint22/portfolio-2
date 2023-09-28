@@ -18,20 +18,19 @@ const Navbar = () => {
             id: 1,
             link: "home"
         },
-        {
-            id: 2,
-            link: "about"
-        },
+
         {
             id: 3,
-            link: "portfolio"
-        },
-        {
-            id: 4,
             link: "experience"
         },
+
         {
-            id: 5,
+            id: 2,
+            link: "portfolio"
+        },
+        
+        {
+            id: 4,
             link: "contact"
         }
     ]
@@ -42,8 +41,10 @@ const Navbar = () => {
   return (
     <div id="navbar" className='flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky z-50 top-0 '>
        <div>
-            <h1 className='text-white text-xl font-signature ml-2'>JOSEPH QUINTILIANO</h1>
-        </div>
+            <a href="#home">
+                <h1 className=' text-2xl  text-green-200 font-signature ml-2'>DEVELOPEDBYJOE</h1>
+            </a>
+       </div>
 
         <ul className="hidden md:flex">
             {links.map(({id, link}) => {

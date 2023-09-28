@@ -9,7 +9,7 @@ const Buttons = (props: { url: string, textContent: string}) => {
    }
 
   return (
-        <div className="w-1/2 text-center py-3 m-4 duration-200 hover:scale-110">
+        <div className="w-5/6 hover:bg-green-300 hover:text-black rounded-md shadow-lg hover:shadow-inner text-center py-3 m-4 duration-200 ">
             <button 
                 
                 onClick={() => handleButtonClick(props.url)}>

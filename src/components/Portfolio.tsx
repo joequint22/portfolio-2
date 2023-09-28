@@ -17,6 +17,7 @@ type TPortfolio = {
   href?: string;
   target?: string;
   rel?: string;
+  context?: string;
 };
 
 // type TSocialLinks = {
@@ -45,6 +46,7 @@ export default function Portfolio() {
       rel: 'noreferrer',
       demo: "https://joequint22.github.io/techdegree-project-6/",
       code: "https://github.com/joequint22/portfolio-2.git",
+      context: "TypeScript, React JS, Tailwind CSS"
     },
     {
       id: 2,
@@ -52,6 +54,8 @@ export default function Portfolio() {
       title: "Order of the Day",
       demo: "https://todo-list-five-gold.vercel.app/",
       code: "https://github.com/joequint22/todo-2.git",
+      context: "TypeScript, React JS, Tailwind CSS"
+
     },
     {
       id: 3,
@@ -59,6 +63,7 @@ export default function Portfolio() {
       title: "Employee Search Directory",
       demo: "https://joequint22.github.io/techdegree-project-8/",
       code: "https://github.com/joequint22/techdegree-project-8.git",
+      context: 'JavaScript, CSS, HTML'
     },
     
     {
@@ -67,6 +72,8 @@ export default function Portfolio() {
       title: "French Greetings",
       demo: "https://joequint22.github.io/techdegree-project-6/",
       code: "https://github.com/joequint22/techdegree-project-6.git",
+      context: 'JavaScript, CSS, HTML'
+
     },
     {
       id: 5,
@@ -74,6 +81,8 @@ export default function Portfolio() {
       title: "Web App Dashboard",
       demo: " https://joequint22.github.io/techdegree-project-7/",
       code: "https://github.com/joequint22/techdegree-project-7.git",
+      context: 'JavaScript, CSS, HTML'
+
     },
     
     {
@@ -82,18 +91,19 @@ export default function Portfolio() {
       title: "Interative Photo Gallery",
       demo: " https://joequint22.github.io/techdegree-project-5/",
       code: "https://github.com/joequint22/techdegree-project-5.git",
+      context: 'JavaScript, Sass, HTML'
+
     },
-  ]
+  ]!
 
-  const [portfolio, setPortfolio] = useState<TPortfolio[]>([])
+  const [portfolio, setPortfolio] = useState<TPortfolio[]>(portfolioData)
 
-
-
-  useEffect(() => {
-    setPortfolio(portfolioData)
-  }, [portfolioData])
     
-    
+    useEffect(() => {
+      setPortfolio(portfolioData)
+      console.log('hello')
+
+    }, [portfolioData]) 
     // {
     //   id: 7,
     //   src: circles,
@@ -106,24 +116,26 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="bg-black w-full text-white md:min-h-screen"
+      className="bg-black bg-gradient-to-b from-black via-black to-gray-900 w-full text-white md:min-h-screen"
     >
       <div className="max-w-screen-lg shadow-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
         <div >
-          <p className="text-4xl font-bold inline border-b-2 ">
+          <p className="text-4xl font-bold inline border-b-2 border-green-200 ">
             Portfolio
           </p>
           <div className="py-8 text-xl px-4 italic">
-            Below, displays the progression throughout my journey 
-          </div>
+            
+          </div> 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-6 ">
-            {portfolio.map(({ id, src, demo, code, title }) => (
+            {portfolio.map(({ id, src, demo, code, title, context }) => (
               <ProjectComponent
+                key={id}
                 id={id}
                 src={src}
                 demo={demo}
                 code={code}
                 title={title}
+                context={context}
               />
             ))}
           </div>

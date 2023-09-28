@@ -5,16 +5,16 @@ import { IoIosArrowForward } from 'react-icons/io'
 export default function Home() {
   return (
     <div id="home" className='h-full
-     w-full bg-black'>
+     w-full bg-gradient-to-b from-black via-black to-gray-900'>
 
-      <div className='max-w-screen-lg py-36 relative mx-auto text-center sm:text-left flex flex-col items-center justify-center h-full px-4 md:flex-row '>
+      <div className='max-w-screen-lg py-[8.5rem] relative mx-auto text-center sm:text-left flex flex-col items-center justify-center h-full px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-7xl font-bold text-white '>
            Junior Front End Web Developer
           </h2>
 
-          <p className='pt-10 text-gray-500 py-4 max-w-md '> 
-            I went to school for applied economics, and left a programmer. An aspiring web developer with a passion for front end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic & adaptibility while continuously improving my skillset as a software developer.
+          <p className='pt-10 text-md text-gray-400 py-4 max-w-md '> 
+            I went to school for applied economics & mathematics, and left a programmer. An aspiring web developer with a passion for front end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic & adaptibility while continuously improving my skillset as a software developer.
           </p>
 
           <div className='pt-16 pb-16'> 
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className='pb-72'>
           <img 
             src={Birds} 
             alt="profile" 

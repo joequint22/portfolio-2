@@ -9,7 +9,7 @@ import javascript from '../assets/javascript.png'
 import github from '../assets/github.png'
 import XpCard from './XpCard'
 import bootstrap from '../assets/bootstrap.png'
-import vercel from '../assets/vercel.png'
+import vite from '../assets/vite.png'
 
 
 type TExperience = {
@@ -46,9 +46,16 @@ const Experience = () => {
 
 
         },
-        
         {
             id: 4,
+            src: vite,
+            text: 'Vite',
+            style: 'shadow-yellow-300'
+            
+
+        },
+        {
+            id: 5,
             src: github,
             text: 'Github',
             style: 'shadow-white',
@@ -58,7 +65,7 @@ const Experience = () => {
         },
 
         {
-            id: 8,
+            id: 6,
             src: javascript,
             text: 'Javascript',
             style: 'shadow-yellow-500'
@@ -68,27 +75,27 @@ const Experience = () => {
 
         
         {
-            id: 7,
+            id: 8,
             src: bootstrap,
             text: 'Bootstrap',
             style: 'shadow-purple-600 ',
-            sassStyle: 'mt-14'
+            sassStyle: 'mt-6'
 
 
         },
 
         {
-            id: 6,
+            id: 9,
             src: sass,
             text: 'SASS',
             style: 'shadow-pink-500 ',
-            sassStyle: 'mt-14'
+            sassStyle: 'mt-6'
 
 
         },
 
         {
-            id: 5,
+            id: 10,
             src: git,
             text: 'Git',
             style: 'shadow-orange-600'
@@ -96,7 +103,7 @@ const Experience = () => {
 
         },
         {
-            id: 9,
+            id: 11,
             src: css,
             text: 'CSS',
             style: 'shadow-blue-500'
@@ -104,36 +111,29 @@ const Experience = () => {
 
         },
         {
-            id: 10,
+            id: 12,
             src: html,
             text: 'HTML',
             style: 'shadow-orange-500'
             
 
         },
-        {
-            id: 11,
-            src: vercel,
-            text: 'Versel',
-            style: 'shadow-black'
-            
-
-        },
+        
         
     ]
 
   return (
-    <div id="experience" className='bg-black w-full h-full '>
+    <div id="experience" className='bg-gradient-to-b from-gray-900 via-black to-black w-full h-full '>
 
         <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center w-full min-h-screen text-white'>
             <div>
-                <p className='text-4xl font-bold inline border-b-2 border-white'>Experience</p>
-                <p className='py-12 px-4 text-xl italic'>Delved into the following technologies...</p>
+                <p className='text-4xl font-bold inline border-b-2 border-green-200 '>Experience</p>
+                <p className='py-12 px-4 text-xl italic'>Familiar with the following technologies...</p>
             </div>
 
             <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
                 {experience.map(({id, src, text, style, sassStyle}) => {
-                    return <XpCard sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
+                    return <XpCard key={id} sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
                 })}
             </div>
         </div>

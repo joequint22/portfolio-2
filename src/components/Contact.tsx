@@ -1,3 +1,4 @@
+
 import UserInput from "./userInput";
 
 type TInputField = {
@@ -9,6 +10,10 @@ type TInputField = {
 };
 
 const Contact = () => {
+
+
+
+
   const inputFields: TInputField[] = [
     {
       id: 1,
@@ -36,13 +41,14 @@ const Contact = () => {
     },
   ];
 
+
   return (
     <div id="contact" className="bg-black w-full text-white min-h-screen">
       <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p
             className="text-4xl 
-                    font-bold border-b-2 border-white inline"
+                    font-bold border-b-2 border-green-200 inline"
           >
             Contact
           </p>
@@ -52,7 +58,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form className="grid gap-8 w-9/12 md:w-3/5" onSubmit={() => console.log("hello")} method="POST" action="https://getform.io/f/03ac2e42-6a4d-493b-a369-b0541a6b4786">         
+          <form className="grid gap-8 w-9/12 md:w-3/5" method="POST" action="https://getform.io/f/03ac2e42-6a4d-493b-a369-b0541a6b4786">         
               
 
               
@@ -70,7 +76,7 @@ const Contact = () => {
                   }
                 )}
                 <div className="grid place-items-center">
-                  <button className=" py-3 my-8 w-full  hover:text-black duration-300 hover:bg-green-200 hover:scale-105 rounded-lg shadow-lg ">
+                  <button className=" py-3 my-8 w-full  hover:text-black duration-300 hover:bg-green-200 rounded-lg shadow-lg ">
                   Submit
                 </button>
               </div>
