@@ -11,7 +11,7 @@ export default function About(){
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div> 
 
-                <p className='text-xl mx-4 mt-10 indent-10 leading-9'>Given the fact there has never been room for complacency within technology, it's what gave me my edge; fueling my curiousity of possibilities within web development, but curiousity can only take you so far. Throughout my journey aquiring greater capabities as a developer, it has led me to beleive that I had a greater responsibility to partake in shaping the future of the web. Thus, the dedication creating innovative and user-friendly solutions has been deeply-rooted. And my adaptibility, as well as my thirst for knoweledge, has only continued to grow stronger.</p>
+                <p className='text-xl mx-4 mt-10 indent-10 leading-9'>Given the fact there has never been room for complacency within technology, it's what gave me my edge; fueling my curiousity of possibilities within web development, but curiousity can only take you so far. Throughout my journey aquiring greater capabities as a developer, it has led me to beleive that I had a greater responsibility to partake in shaping the future of the web. Thus, the dedication creating innovative and user-friendly solutions has been deeply-rooted. And my adaptibility, as well as my thirst for knoweledge, has only continued to grow stronger. </p>
 
                 <br />
 
