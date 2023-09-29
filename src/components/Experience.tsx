@@ -51,8 +51,6 @@ const Experience = () => {
             src: github,
             text: 'Github',
             style: 'shadow-white',
-            
-
 
         },
 
@@ -71,7 +69,7 @@ const Experience = () => {
             src: bootstrap,
             text: 'Bootstrap',
             style: 'shadow-purple-600 ',
-            sassStyle: 'mt-6'
+            sassStyle: 'pt-6'
 
 
         },
@@ -81,7 +79,7 @@ const Experience = () => {
             src: sass,
             text: 'SASS',
             style: 'shadow-pink-500 ',
-            sassStyle: 'mt-6'
+            sassStyle: 'pt-6'
 
 
         },
@@ -123,15 +121,15 @@ const Experience = () => {
     ]
 
   return (
-    <div id="experience" className='bg-gradient-to-b from-gray-900 via-black to-black w-full h-full '>
+    <div id="experience" className='bg-black w-full h-full '>
 
-        <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center w-full min-h-screen text-white'>
-            <div>
-                <p className='text-4xl font-bold inline border-b-2 border-green-200 '>Experience</p>
-                <p className='py-12 px-4 text-xl italic'>Familiar with the following technologies...</p>
+        <div className='max-w-screen-lg mx-auto p-4 py-36 flex flex-col justify-center min-h-screen text-white'>
+            <div className='text-center md:text-left'>
+                <p className='text-4xl font-bold inline border-b-4 border-green-200 '>Experience</p>
+                <p className='py-12 text-lg lg:text-xl italic'>Familiar with the following technologies...</p>
             </div>
 
-            <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 pb-16 mt-0 sm:px-0">
+            <div className="w-full place-items-center  grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-24 md:gap-8 px-4 pb-16 mt-0 sm:px-0">
                 {experience.map(({id, src, text, style, sassStyle}) => {
                     return <XpCard key={id} sassStyle={sassStyle} style={style} id={id} src={src} text={text} />
                 })}

@@ -45,14 +45,14 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-black w-full text-white min-h-screen">
       <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
+        <div className="text-center lg:text-left">
           <p
             className="text-4xl 
                     font-bold border-b-2 border-green-200 inline"
           >
             Contact
           </p>
-          <div className="py-12 px-4 text-xl">
+          <div className="py-12 px-4 text-lg lg:text-xl">
                 Submit the form below to get in touch with me!
           </div>
         </div>

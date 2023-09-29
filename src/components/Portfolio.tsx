@@ -101,9 +101,8 @@ export default function Portfolio() {
     
     useEffect(() => {
       setPortfolio(portfolioData)
-      console.log('hello')
 
-    }, [portfolioData]) 
+    }, []) 
     // {
     //   id: 7,
     //   src: circles,
@@ -116,17 +115,17 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="bg-black bg-gradient-to-b from-black via-black to-gray-900 w-full text-white md:min-h-screen"
+      className="bg-black w-full text-white md:min-h-screen"
     >
       <div className="max-w-screen-lg shadow-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
-        <div >
-          <p className="text-4xl font-bold inline border-b-2 border-green-200 ">
+        <div className='text-center grid place-items-center md:text-left'>
+          <p className="text-4xl font-bold inline border-b-4 border-green-200 ">
             Portfolio
           </p>
           <div className="py-8 text-xl px-4 italic">
             
           </div> 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-6 ">
+          <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-6 ">
             {portfolio.map(({ id, src, demo, code, title, context }) => (
               <ProjectComponent
                 key={id}
