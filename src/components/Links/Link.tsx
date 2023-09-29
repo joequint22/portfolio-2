@@ -1,15 +1,12 @@
-
-const Link = (props: {id: number, link: string}) => {
+const Link = (props: { id: number; link: string }) => {
   return (
-    <a href={`#${props.link}`}>
-      <li
-        key={props.id}
-        className="px-4 gap-3 cursor-pointer capitalize font-medium text-white hover:text-green-200 hover:scale-125 duration-500"
-      >
-        {props.link}
-      </li>
-    </a>
-  )
-}
+    <li
+      key={props.id}
+      className="px-4 gap-3 cursor-pointer capitalize font-medium text-white hover:text-green-200 hover:scale-125 duration-500"
+    >
+      <a href={`#${props.link}`}>{props.link}</a>
+    </li>
+  );
+};
 
-export default Link
+export default Link;

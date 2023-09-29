@@ -70,7 +70,7 @@ const Navbar = () => {
         </ul>
 
         <div
-        onClick={handleNav} 
+        onClick={ handleNav} 
         className='cursor-pointer pr-4 z-10 text-gray-800 md:hidden'> {/* */}
            {nav ? <FaTimes className='text-white' size={30} /> : <FaBars className='text-white' size={30} />}
         </div>
