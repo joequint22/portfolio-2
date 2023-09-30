@@ -67,11 +67,15 @@ export default function Portfolio() {
       id: 4,
       src: portPic,
       title: "My Portfolio",
+      // download: true,
+      // href: "./joeq-resume.pdf",
+      // target: '_blank',
+      // rel: 'noreferrer',
+      href: "./joeq-resume.pdf",
       download: true,
-      href: "/resume.pdf",
-      target: '_blank',
+      target: "_blank",
       rel: 'noreferrer',
-      demo: "https://joequint22.github.io/techdegree-project-6/",
+      demo: "./joeq-resume.pdf",
       code: "https://github.com/joequint22/portfolio-2.git",
       context: "TypeScript, React JS, Tailwind CSS"
     },
@@ -153,7 +157,7 @@ export default function Portfolio() {
             
           </div> 
           <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-6 ">
-            {portfolio.map(({ id, src, demo, code, title, context }) => (
+            {portfolio.map(({ id, src, demo, code, title, context, download }) => (
               <ProjectComponent
                 key={id}
                 id={id}
@@ -162,6 +166,7 @@ export default function Portfolio() {
                 code={code}
                 title={title}
                 context={context}
+                download={download}
               />
             ))}
           </div>
