@@ -6,6 +6,9 @@ import hangman from "../assets/hangman.png";
 import dashboard from "../assets/dashboard.png";
 import directory from "../assets/directory.png";
 import portPic from "../assets/port-pic.png";
+import windowTracker from "../assets/window-tracker.png";
+import tenzies from "../assets/tenzies.png";
+import memeGenerator from "../assets/memeGen.png";
 
 type TPortfolio = {
   id: number;
@@ -38,6 +41,30 @@ export default function Portfolio() {
   const portfolioData: TPortfolio[] = [
     {
       id: 1,
+      src: tenzies,
+      title: "TENZIES",
+      demo: "https://tenzies-sand.vercel.app/",
+      code: "https://github.com/joequint22/tenzies.git",
+      context: "React JS, CSS Grid, CSS Flexbox"
+    },
+    {
+      id: 2,
+      src: memeGenerator,
+      title: "Meme Generator",
+      demo: "https://meme-generator-tau-sandy.vercel.app/",
+      code: "https://github.com/joequint22/meme-generator.git",
+      context: "React JS, CSS Grid, CSS Flexbox"
+    },
+    {
+      id: 3,
+      src: windowTracker,
+      title: "Window Tracker",
+      demo: "https://window-tracker.vercel.app/",
+      code: "https://github.com/joequint22/window-tracker.git",
+      context: "React JS, CSS Flexbox"
+    },
+    {
+      id: 4,
       src: portPic,
       title: "My Portfolio",
       download: true,
@@ -49,7 +76,7 @@ export default function Portfolio() {
       context: "TypeScript, React JS, Tailwind CSS"
     },
     {
-      id: 2,
+      id: 5,
       src: todoList,
       title: "Order of the Day",
       demo: "https://todo-list-five-gold.vercel.app/",
@@ -58,7 +85,7 @@ export default function Portfolio() {
 
     },
     {
-      id: 3,
+      id: 6,
       src: directory,
       title: "Employee Search Directory",
       demo: "https://joequint22.github.io/techdegree-project-8/",
@@ -67,7 +94,7 @@ export default function Portfolio() {
     },
     
     {
-      id: 4,
+      id: 7,
       src: hangman,
       title: "French Greetings",
       demo: "https://joequint22.github.io/techdegree-project-6/",
@@ -76,7 +103,7 @@ export default function Portfolio() {
 
     },
     {
-      id: 5,
+      id: 8,
       src: dashboard,
       title: "Web App Dashboard",
       demo: " https://joequint22.github.io/techdegree-project-7/",
@@ -86,7 +113,7 @@ export default function Portfolio() {
     },
     
     {
-      id: 6,
+      id: 9,
       src: gallery,
       title: "Interative Photo Gallery",
       demo: " https://joequint22.github.io/techdegree-project-5/",
@@ -94,7 +121,7 @@ export default function Portfolio() {
       context: 'JavaScript, Sass, HTML'
 
     },
-  ]!
+  ]
 
   const [portfolio, setPortfolio] = useState<TPortfolio[]>(portfolioData)
 
