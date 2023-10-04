@@ -13,13 +13,13 @@ export default function Home() {
       <div className='max-w-screen-lg mx-auto text-center pt-[7rem] md:pt-[5rem] lg:text-left flex flex-col items-center justify-center px-4 md:flex-row'>
         <div className='flex flex-col items-center lg:items-start justify-center gap-8'>
           <h2 className='text-[3rem] lg:text-[4.5rem]  leading-tight font-bold text-white'>
-           Front End Web Developer
+           Front End Developer
           </h2>
 
           <p className='pt-5 text-lg text-gray-400 md:max-w-md'> 
           I went to school for applied economics & mathematics and left as a programmer. I am an aspiring web developer with a passion for front-end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic and adaptability while continuously improving my skillset as a software developer.
           </p>
-
+          
             <div className='mx-auto py-6 pt-12 lg:pt-7 lg:mx-0'> 
               
               <button
