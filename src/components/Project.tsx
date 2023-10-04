@@ -18,7 +18,7 @@ const Project = (props: TProject) => {
   return (
       <div
         key={props.id}
-        className="hover:scale-105 h-full md:w-fit lg:mx-1 border border-gray-700 hover:shadow-green-300 duration-500 flex flex-col justify-between text-center rounded-md"
+        className="sm:hover:scale-105 h-full md:w-fit lg:mx-1 border border-gray-700 hover:shadow-green-300 duration-500 flex flex-col justify-between text-center rounded-md"
       >
         <div className='flex flex-col p-3'>
         <div className=' text-md text-white py-4 mx-auto'>{props.title}</div>
