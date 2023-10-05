@@ -53,7 +53,7 @@ const Contact = () => {
             Contact
           </p>
           <div className="italic py-12 px-4 text-lg lg:text-xl">
-                Submit the form below to get in touch with me!
+            Submit the form below to get in touch with me!
           </div>
         </div>
 
