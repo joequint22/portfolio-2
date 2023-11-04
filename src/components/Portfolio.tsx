@@ -6,7 +6,6 @@ import hangman from "../assets/hangman.png";
 import dashboard from "../assets/dashboard.png";
 import directory from "../assets/directory.png";
 import portPic from "../assets/port-pic.png";
-import windowTracker from "../assets/window-tracker.png";
 import tenzies from "../assets/tenzies.png";
 import memeGenerator from "../assets/memeGen.png";
 import YT_Homepage from '../assets/yt-homepage.png'
@@ -43,7 +42,7 @@ export default function Portfolio() {
     {
       id: 9,
       src: YT_Homepage,
-      title: "YouTube Homepage",
+      title: "YouTube Clone",
       demo: "https://yt-homepage.vercel.app/",
       code: "https://github.com/joequint22/yt-homepage.git",
       context: "TypeScript, React.js, Tailwind CSS, Class-Variance-Authority"
