@@ -9,6 +9,7 @@ import portPic from "../assets/port-pic.png";
 import windowTracker from "../assets/window-tracker.png";
 import tenzies from "../assets/tenzies.png";
 import memeGenerator from "../assets/memeGen.png";
+import YT_Homepage from '../assets/yt-homepage.png'
 
 type TPortfolio = {
   id: number;
@@ -40,7 +41,15 @@ export default function Portfolio() {
 
   const portfolioData: TPortfolio[] = [
     {
-      id: 1,
+      id: 10,
+      src: YT_Homepage,
+      title: "YouTube Homepage",
+      demo: "https://tenzies-sand.vercel.app/",
+      code: "https://github.com/joequint22/tenzies.git",
+      context: "React JS, CSS Grid, CSS Flexbox"
+    },
+    {
+      id: 9,
       src: tenzies,
       title: "TENZIES",
       demo: "https://tenzies-sand.vercel.app/",
@@ -48,7 +57,7 @@ export default function Portfolio() {
       context: "React JS, CSS Grid, CSS Flexbox"
     },
     {
-      id: 2,
+      id: 8,
       src: memeGenerator,
       title: "Meme Generator",
       demo: "https://meme-generator-tau-sandy.vercel.app/",
@@ -56,7 +65,7 @@ export default function Portfolio() {
       context: "React JS, CSS Grid, CSS Flexbox"
     },
     {
-      id: 3,
+      id: 7,
       src: windowTracker,
       title: "Window Tracker",
       demo: "https://window-tracker.vercel.app/",
@@ -64,7 +73,7 @@ export default function Portfolio() {
       context: "React JS, CSS Flexbox"
     },
     {
-      id: 4,
+      id: 6,
       src: portPic,
       title: "My Portfolio",
       // download: true,
@@ -89,7 +98,7 @@ export default function Portfolio() {
 
     },
     {
-      id: 6,
+      id: 4,
       src: directory,
       title: "Employee Search Directory",
       demo: "https://joequint22.github.io/techdegree-project-8/",
@@ -98,7 +107,7 @@ export default function Portfolio() {
     },
     
     {
-      id: 7,
+      id: 3,
       src: hangman,
       title: "French Greetings",
       demo: "https://joequint22.github.io/techdegree-project-6/",
@@ -107,7 +116,7 @@ export default function Portfolio() {
 
     },
     {
-      id: 8,
+      id: 2,
       src: dashboard,
       title: "Web App Dashboard",
       demo: " https://joequint22.github.io/techdegree-project-7/",
@@ -117,7 +126,7 @@ export default function Portfolio() {
     },
     
     {
-      id: 9,
+      id: 1,
       src: gallery,
       title: "Interative Photo Gallery",
       demo: " https://joequint22.github.io/techdegree-project-5/",
