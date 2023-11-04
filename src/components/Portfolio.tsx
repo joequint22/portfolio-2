@@ -41,36 +41,28 @@ export default function Portfolio() {
 
   const portfolioData: TPortfolio[] = [
     {
-      id: 10,
+      id: 9,
       src: YT_Homepage,
       title: "YouTube Homepage",
-      demo: "https://tenzies-sand.vercel.app/",
-      code: "https://github.com/joequint22/tenzies.git",
-      context: "React JS, CSS Grid, CSS Flexbox"
+      demo: "https://yt-homepage.vercel.app/",
+      code: "https://github.com/joequint22/yt-homepage.git",
+      context: "TypeScript, React.js, Tailwind CSS, Class-Variance-Authority"
     },
     {
-      id: 9,
+      id: 8,
       src: tenzies,
       title: "TENZIES",
       demo: "https://tenzies-sand.vercel.app/",
       code: "https://github.com/joequint22/tenzies.git",
-      context: "React JS, CSS Grid, CSS Flexbox"
+      context: "React.js, CSS Grid, CSS Flexbox"
     },
     {
-      id: 8,
+      id: 7,
       src: memeGenerator,
       title: "Meme Generator",
       demo: "https://meme-generator-tau-sandy.vercel.app/",
       code: "https://github.com/joequint22/meme-generator.git",
-      context: "React JS, CSS Grid, CSS Flexbox"
-    },
-    {
-      id: 7,
-      src: windowTracker,
-      title: "Window Tracker",
-      demo: "https://window-tracker.vercel.app/",
-      code: "https://github.com/joequint22/window-tracker.git",
-      context: "React JS, CSS Flexbox"
+      context: "React.js, CSS Grid, CSS Flexbox"
     },
     {
       id: 6,
@@ -86,7 +78,7 @@ export default function Portfolio() {
       rel: 'noreferrer',
       demo: "./joeq-resume.pdf",
       code: "https://github.com/joequint22/portfolio-2.git",
-      context: "TypeScript, React JS, Tailwind CSS"
+      context: "TypeScript, React.js, Tailwind CSS"
     },
     {
       id: 5,
@@ -94,7 +86,7 @@ export default function Portfolio() {
       title: "Order of the Day",
       demo: "https://todo-list-five-gold.vercel.app/",
       code: "https://github.com/joequint22/todo-2.git",
-      context: "TypeScript, React JS, Tailwind CSS"
+      context: "TypeScript, React.js, Tailwind CSS"
 
     },
     {
