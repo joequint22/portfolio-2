@@ -7,8 +7,9 @@ import dashboard from "../assets/dashboard.png";
 import directory from "../assets/directory.png";
 import portPic from "../assets/port-pic.png";
 import tenzies from "../assets/tenzies.png";
-import memeGenerator from "../assets/memeGen.png";
+import memeGenerator from "../assets/memeGen.png"
 import YT_Homepage from '../assets/yt-homepage.png'
+import ShoppingCart from '../assets/shopcart.png'
 
 type TPortfolio = {
   id: number;
@@ -39,6 +40,14 @@ type TPortfolio = {
 export default function Portfolio() {
 
   const portfolioData: TPortfolio[] = [
+    {
+      id: 10,
+      src: ShoppingCart,
+      title: "Shopping Cart",
+      demo: "https://shopping-cart-ten-bice.vercel.app/",
+      code: "https://github.com/joequint22/shopping-cart.git",
+      context: "TypeScript, React.js, Bootstrap"
+    },
     {
       id: 9,
       src: YT_Homepage,
