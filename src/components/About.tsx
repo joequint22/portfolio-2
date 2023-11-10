@@ -4,7 +4,7 @@ export default function About(){
     
     return(
         <div id="about" 
-            className="w-full min-h-screen px-4  py-24 grid place-items-center bg-black text-white ">
+            className="w-full min-h-screen px-4  py-24 grid place-items-center bg-black text-white md:px-14 lg:px-20">
             
             <div className='max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full' >
                 <div className='pb-8 text-center md:text-left'>

@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-black w-full text-white min-h-screen">
       <div className="max-w-screen-lg mx-auto py-24 p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="text-center lg:text-left">
+        <div className="text-center">
           <p
             className="text-4xl 
                     font-bold border-b-2 border-green-200 inline"

@@ -11,7 +11,7 @@ export default function Home() {
     <div id="home" className='w-screen bg-black'>
 
       <div className='max-w-screen-lg mx-auto text-center pt-[7rem] md:pt-[5rem] lg:text-left flex flex-col items-center justify-center px-4 md:flex-row'>
-        <div className='flex flex-col items-center lg:items-start justify-center gap-8'>
+        <div className='flex flex-col items-center lg:items-start justify-center gap-8 md:px-12 lg:px-16 xl:px-0'>
           <h2 className='text-[3.5rem] md:text-[5rem] leading-tight font-bold text-white'>
            Front End React Developer
           </h2>
