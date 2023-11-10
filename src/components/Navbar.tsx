@@ -75,8 +75,8 @@ const Navbar = () => {
            {nav ? <FaTimes className='text-white' size={30} /> : <FaBars className='text-white' size={30} />}
         </div>
 
-        { nav && (
-             <ul id='menu' className='flex flex-col items-left absolute top-[100%] right-0 w-2/5 h-fit bg-black '>
+        
+             <ul id='menu' className={`flex -translate-x-[-100%] flex-col transition-transform items-left absolute top-[100%] right-0 w-2/5 h-fit bg-black ${nav && "-translate-x-[0%]"}`}>
                 {links.map(({id, link, nav}) => {
                         return <LinkMobile 
                             key={id}
@@ -86,7 +86,7 @@ const Navbar = () => {
                         />
                 })}
             </ul>
-        )}
+      
 
        
         
