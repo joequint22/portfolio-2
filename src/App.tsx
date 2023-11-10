@@ -11,8 +11,10 @@ function App() {
   
   return (
     <>
-        <div className="App">
-            <Navbar />
+        <div className="App overflow-x-hidden">
+            <div className='fixed w-screen'>
+              <Navbar />
+            </div>
             <Home />
             <About /> 
             <Portfolio />

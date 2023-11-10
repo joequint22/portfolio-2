@@ -52,7 +52,7 @@ const Navbar = () => {
 
 
   return (
-    <div id="navbar" className='flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky z-50 top-0 '>
+    <div id="navbar" className='flex justify-between items-center w-full h-20 px-4 text-white bg-black z-50 top-0 '>
        <div>
             <a href="#home">
                 <h1 className=' text-2xl  hover:scale-110 duration-500 text-green-200 font-signature ml-2'>DEVELOPEDBYJOE</h1>
@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
 
         
-             <ul id='menu' className={`flex -translate-x-[-100%] flex-col transition-transform items-left absolute top-[100%] right-0 w-2/5 h-fit bg-black ${nav && "-translate-x-[0%]"}`}>
+             <ul id='menu' className={`flex -translate-x-[-100%] flex-col transition-transform items-left absolute top-[100%] right-0 w-2/5 h-fit bg-black ${nav && "-translate-x-[0%] md:hidden"}`}>
                 {links.map(({id, link, nav}) => {
                         return <LinkMobile 
                             key={id}
