@@ -12,7 +12,7 @@ function App() {
   return (
     <>
         <div className="App overflow-x-hidden">
-            <div className='fixed w-screen'>
+            <div className='fixed z-[999] w-screen'>
               <Navbar />
             </div>
             <Home />
