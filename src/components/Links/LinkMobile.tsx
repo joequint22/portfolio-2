@@ -17,7 +17,7 @@ const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetSt
 
   return (
     <a
-      href={props.id !== 6 ? `#${props.link}`: `${props.href}`}
+      href={props.id !== 6 ? `#${props.link}`: `#home`}
       download={props.download}
       target={props.target}
       rel={props.rel}
