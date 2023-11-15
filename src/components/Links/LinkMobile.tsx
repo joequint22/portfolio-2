@@ -10,7 +10,7 @@ const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetSt
 }) => {
 
   const handleButtonClick = (url: string) => {
-    
+    props.nav(false)
     window.open(url, '_blank')
 }
 
@@ -21,10 +21,9 @@ const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetSt
       download={props.download}
       target={props.target}
       rel={props.rel}
-      
-      >
+      onClick={props.id === 6 ? () => handleButtonClick('./joeq-resume.pdf') : () => props.nav(null!) }
+    >
         <li 
-        onClick={props.id === 6 ? () => handleButtonClick('./joeq-resume.pdf') : () => props.nav(null!) }
               // onClick={() => props.nav(null!)}
           key={props.id}
           className=" hover:bg-white hover:duration-200 hover:text-black cursor-pointer capitalize py-4 px-3 text-xl"
