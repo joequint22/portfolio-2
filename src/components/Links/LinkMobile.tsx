@@ -4,9 +4,9 @@ import { SetStateAction } from "react"
 const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetStateAction<boolean>>
   download?: boolean;
   href?: string;
-  target: string;
+  target?: string;
   rel?: string;
-  demo: string;
+  demo?: string;
 }) => {
 
   const handleButtonClick = (url: string) => {

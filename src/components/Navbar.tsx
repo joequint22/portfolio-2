@@ -97,7 +97,10 @@ const Navbar = () => {
         }`}
       >
         {links.map(({ id, link, nav }) => {
-          return <LinkMobile key={id} id={id} link={link} nav={nav} />;
+          return <LinkMobile key={id} id={id} link={link} nav={nav} 
+            
+          
+          />;
         })}
       </ul>
     </div>

@@ -6,15 +6,21 @@ const Link = (props: { id: number; link: string
   target?: string;
   rel?: string;
   demo?: string;
-  nav: React.Dispatch<SetStateAction<boolean>>
+  nav?: React.Dispatch<SetStateAction<boolean>>
 }) => {
+
+
+  const handleButtonClick = (url: string) => {
+    
+    window.open(url, '_blank')
+} 
   return (
     <a 
       href={props.id !== 6 ? `#${props.link}`: `${props.href}`}
       download={props.download}
       target={props.target}
       rel={props.rel}
-      onClick={() => props.nav}
+      onClick={props.id !== 6 ? () => null : () => handleButtonClick('./joeq-resume.pdf')}
     >
       <li
         key={props.id}
