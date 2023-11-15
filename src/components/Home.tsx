@@ -17,7 +17,7 @@ export default function Home() {
           </h2>
 
           <p className='pt-5 px-4 md:px-0 text-lg text-gray-400 md:max-w-md'> 
-          I went to school for applied economics & mathematics and left as a programmer. I am an aspiring web developer with a passion for front-end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic and adaptability while continuously improving my skillset as a software developer.
+          I went to school for applied economics & mathematics and left as a programmer. I'm a web developer with a passion for front-end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic and adaptability while continuously improving my skillset as a software developer.
           </p>
           
             <div className='mx-auto py-6 pt-12 lg:pt-7'> 
