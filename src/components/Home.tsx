@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className='max-w-screen-lg mx-auto text-center pt-[7rem] md:pt-[5rem] lg:text-left flex flex-col items-center justify-center px-4 md:flex-row'>
         <div className='flex flex-col items-center lg:items-start justify-center gap-8 md:px-12 lg:px-16 xl:px-0'>
-          <h2 className='text-[3.5rem] md:text-[5rem] leading-tight font-bold text-white'>
+          <h2 className='text-[3.5rem] md:text-[4rem] lg:text-[5rem] leading-tight font-bold text-white'>
            Front End React Developer
           </h2>
 
@@ -20,7 +20,7 @@ export default function Home() {
           I went to school for applied economics & mathematics and left as a programmer. I'm a web developer with a passion for front-end development. And as a former student-athlete from Ursinus College, I take exceptional pride in my work ethic and adaptability while continuously improving my skillset as a software developer.
           </p>
           
-            <div className='mx-auto py-6 pt-12 lg:pt-7'> 
+            <div className='mx-auto md:mx-0 py-6 pt-12 lg:pt-7'> 
               
               <button
                 onClick={() => {
