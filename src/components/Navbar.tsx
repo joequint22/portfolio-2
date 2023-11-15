@@ -6,7 +6,7 @@ import LinkMobile from "./Links/LinkMobile";
 type LinksType = {
   id: number;
   link: string;
-  nav?: React.Dispatch<SetStateAction<boolean>>;
+  nav: React.Dispatch<SetStateAction<boolean>>;
   download?: boolean;
   href?: string;
   target?: string;
@@ -54,6 +54,7 @@ const Navbar = () => {
       download: true,
       target: "_blank",
       rel: "noreferrer",
+      nav: handleNav
     },
   ];
 
