@@ -21,7 +21,7 @@ const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetSt
       download={true}
       target={props.target}
       rel={props.rel}
-      onClick={() => handleButtonClick('./joeq-resume.pdf')}
+      onClick={props.id === 6 ? () => handleButtonClick('./joeq-resume.pdf') : () => null }
       
       >
         <li 
