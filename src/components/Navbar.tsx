@@ -72,8 +72,8 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link, href, download, target, rel, demo }) => {
-          return <Link key={id} id={id} link={link} href={href} download={download} target={target} rel={rel} demo={demo}/>;
+        {links.map(({ id, link, href, download, target, rel, demo, nav}) => {
+          return <Link key={id} id={id} link={link} href={href} download={download} target={target} rel={rel} demo={demo} nav={nav}/>;
         })}
       </ul>
 

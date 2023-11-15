@@ -1,9 +1,12 @@
+import { SetStateAction } from "react";
+
 const Link = (props: { id: number; link: string
   download?: boolean;
   href?: string;
   target?: string;
   rel?: string;
   demo?: string;
+  nav: React.Dispatch<SetStateAction<boolean>>
 }) => {
   return (
     <a 
@@ -11,6 +14,7 @@ const Link = (props: { id: number; link: string
       download={props.download}
       target={props.target}
       rel={props.rel}
+      onClick={() => props.nav}
     >
       <li
         key={props.id}
