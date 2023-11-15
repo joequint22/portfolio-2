@@ -10,7 +10,7 @@ const LinksMobile = (props: {id: number, link: string, nav: React.Dispatch<SetSt
 }) => {
 
   const handleButtonClick = (url: string) => {
-    props.nav(false)
+    props.nav(null!)
     window.open(url, '_blank')
 }
 
