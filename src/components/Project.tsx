@@ -32,7 +32,7 @@ const Project = (props: TProject) => {
         />
         
         <div className="flex justify-center h-18 items-center ">
-        {props.id === 4 ? 
+        {props.id === 6 ? 
             
               <ButtonComponent
                 url={props.demo}
