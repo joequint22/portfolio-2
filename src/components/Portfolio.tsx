@@ -155,7 +155,7 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="bg-black w-full text-white md:min-h-screen lg:px-8 xl:px-0 "
+      className="bg-black w-full text-white md:min-h-screen lg:px-8 xl:px-0 py-24 "
     >
       <div className="max-w-screen-lg shadow-lg mx-auto py-24 p-4 xl:p-0 flex flex-col justify-center w-full h-full text-white">
           <div className='pb-14 text-center md:text-left'>

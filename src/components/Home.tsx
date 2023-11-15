@@ -8,7 +8,7 @@ export default function Home() {
 
 
   return (
-    <div id="home" className='w-screen bg-black pt-20'>
+    <div id="home" className='w-screen bg-black py-16'>
 
       <div className='max-w-screen-lg mx-auto text-center pt-[7rem] md:pt-[5rem] lg:text-left flex flex-col items-center justify-center px-4 md:flex-row'>
         <div className='flex flex-col items-center lg:items-start justify-center gap-8 md:px-12 lg:px-16 xl:px-0'>
