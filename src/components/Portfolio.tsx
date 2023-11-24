@@ -48,14 +48,6 @@ export default function Portfolio() {
       context: "TypeScript, React.js, Bootstrap"
     },
     {
-      id: 9,
-      src: YT_Homepage,
-      title: "YouTube Clone",
-      demo: "https://yt-homepage.vercel.app/",
-      code: "https://github.com/joequint22/yt-homepage.git",
-      context: "TypeScript, React.js, Tailwind CSS, Class-Variance-Authority"
-    },
-    {
       id: 8,
       src: tenzies,
       title: "TENZIES",
