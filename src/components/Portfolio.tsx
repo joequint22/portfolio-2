@@ -7,6 +7,7 @@ import dashboard from "../assets/dashboard.png";
 import directory from "../assets/directory.png";
 import portPic from "../assets/port-pic.png";
 import tenzies from "../assets/tenzies.png";
+import YT_Homepage from '../assets/yt-homepage.png'
 import ShoppingCart from '../assets/shopcart.png'
 
 type TPortfolio = {
@@ -45,6 +46,14 @@ export default function Portfolio() {
       demo: "https://shopping-cart-ten-bice.vercel.app/",
       code: "https://github.com/joequint22/shopping-cart.git",
       context: "TypeScript, React.js, Bootstrap"
+    },
+    {
+      id: 9,
+      src: YT_Homepage,
+      title: "YouTube Clone",
+      demo: "https://yt-homepage.vercel.app/",
+      code: "https://github.com/joequint22/yt-homepage.git",
+      context: "TypeScript, React.js, Tailwind CSS, Class-Variance-Authority"
     },
     {
       id: 8,
