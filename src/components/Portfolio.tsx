@@ -7,7 +7,6 @@ import dashboard from "../assets/dashboard.png";
 import directory from "../assets/directory.png";
 import portPic from "../assets/port-pic.png";
 import tenzies from "../assets/tenzies.png";
-import YT_Homepage from '../assets/yt-homepage.png'
 import ShoppingCart from '../assets/shopcart.png'
 
 type TPortfolio = {
