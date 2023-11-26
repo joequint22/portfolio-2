@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react'
 import ProjectComponent from "./Project";
-import todoList from "../assets/todo-list.png";
-import gallery from "../assets/gallery.png";
-import hangman from "../assets/hangman.png";
-import dashboard from "../assets/dashboard.png";
-import directory from "../assets/directory.png";
-import portPic from "../assets/port-pic.png";
+// import todoList from "../assets/todo-list.png";
+// import gallery from "../assets/gallery.png";
+// import hangman from "../assets/hangman.png";
+// import dashboard from "../assets/dashboard.png";
+// import directory from "../assets/directory.png";
+// import portPic from "../assets/port-pic.png";
 import tenzies from "../assets/tenzies.png";
 import YT_Homepage from '../assets/yt-homepage.png'
 import ShoppingCart from '../assets/shopcart.png'
+import BitcoinTracker from '../assets/bitcoin-tracker.png'
 
 type TPortfolio = {
   id: number;
@@ -40,6 +41,14 @@ export default function Portfolio() {
 
   const portfolioData: TPortfolio[] = [
     {
+      id: 11,
+      src: BitcoinTracker,
+      title: "Bitcoin Tracker",
+      demo: "https://bitcoin-tracker-seven.vercel.app/",
+      code: "https://github.com/joequint22/bitcoin-tracker.git",
+      context: "TypeScript, React.js, TailwindCSS"
+    },
+    {
       id: 10,
       src: ShoppingCart,
       title: "Shopping Cart",
@@ -63,68 +72,68 @@ export default function Portfolio() {
       code: "https://github.com/joequint22/tenzies.git",
       context: "React.js, CSS Grid, CSS Flexbox"
     },
-    {
-      id: 6,
-      src: portPic,
-      title: "My Portfolio",
-      // download: true,
-      // href: "./joeq-resume.pdf",
-      // target: '_blank',
-      // rel: 'noreferrer',
-      href: "./joeq-resume.pdf",
-      download: true,
-      target: "_blank",
-      rel: 'noreferrer',
-      demo: "./joeq-resume.pdf",
-      code: "https://github.com/joequint22/portfolio-2.git",
-      context: "TypeScript, React.js, Tailwind CSS"
-    },
-    {
-      id: 5,
-      src: todoList,
-      title: "Order of the Day",
-      demo: "https://todo-list-five-gold.vercel.app/",
-      code: "https://github.com/joequint22/todo-2.git",
-      context: "TypeScript, React.js, Tailwind CSS"
+    // {
+    //   id: 6,
+    //   src: portPic,
+    //   title: "My Portfolio",
+    //   // download: true,
+    //   // href: "./joeq-resume.pdf",
+    //   // target: '_blank',
+    //   // rel: 'noreferrer',
+    //   href: "./joeq-resume.pdf",
+    //   download: true,
+    //   target: "_blank",
+    //   rel: 'noreferrer',
+    //   demo: "./joeq-resume.pdf",
+    //   code: "https://github.com/joequint22/portfolio-2.git",
+    //   context: "TypeScript, React.js, Tailwind CSS"
+    // },
+    // {
+    //   id: 5,
+    //   src: todoList,
+    //   title: "Order of the Day",
+    //   demo: "https://todo-list-five-gold.vercel.app/",
+    //   code: "https://github.com/joequint22/todo-2.git",
+    //   context: "TypeScript, React.js, Tailwind CSS"
 
-    },
-    {
-      id: 4,
-      src: directory,
-      title: "Employee Search Directory",
-      demo: "https://joequint22.github.io/techdegree-project-8/",
-      code: "https://github.com/joequint22/techdegree-project-8.git",
-      context: 'JavaScript, CSS, HTML'
-    },
+    // },
+    // {
+    //   id: 4,
+    //   src: directory,
+    //   title: "Employee Search Directory",
+    //   demo: "https://joequint22.github.io/techdegree-project-8/",
+    //   code: "https://github.com/joequint22/techdegree-project-8.git",
+    //   context: 'JavaScript, CSS, HTML'
+    // },
     
-    {
-      id: 3,
-      src: hangman,
-      title: "French Greetings",
-      demo: "https://joequint22.github.io/techdegree-project-6/",
-      code: "https://github.com/joequint22/techdegree-project-6.git",
-      context: 'JavaScript, CSS, HTML'
+    // {
+    //   id: 3,
+    //   src: hangman,
+    //   title: "French Greetings",
+    //   demo: "https://joequint22.github.io/techdegree-project-6/",
+    //   code: "https://github.com/joequint22/techdegree-project-6.git",
+    //   context: 'JavaScript, CSS, HTML'
 
-    },
-    {
-      id: 2,
-      src: dashboard,
-      title: "Web App Dashboard",
-      demo: " https://joequint22.github.io/techdegree-project-7/",
-      code: "https://github.com/joequint22/techdegree-project-7.git",
-      context: 'JavaScript, CSS, HTML'
+    // },
+    // {
+    //   id: 2,
+    //   src: dashboard,
+    //   title: "Web App Dashboard",
+    //   demo: " https://joequint22.github.io/techdegree-project-7/",
+    //   code: "https://github.com/joequint22/techdegree-project-7.git",
+    //   context: 'JavaScript, CSS, HTML'
 
-    },
+    // },
     
-    {
-      id: 1,
-      src: gallery,
-      title: "Interative Photo Gallery",
-      demo: " https://joequint22.github.io/techdegree-project-5/",
-      code: "https://github.com/joequint22/techdegree-project-5.git",
-      context: 'JavaScript, Sass, HTML'
+    // {
+    //   id: 1,
+    //   src: gallery,
+    //   title: "Interative Photo Gallery",
+    //   demo: " https://joequint22.github.io/techdegree-project-5/",
+    //   code: "https://github.com/joequint22/techdegree-project-5.git",
+    //   context: 'JavaScript, Sass, HTML'
 
-    },
+    // },
   ]
 
   const [portfolio, setPortfolio] = useState<TPortfolio[]>(portfolioData)
