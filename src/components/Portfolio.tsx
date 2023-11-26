@@ -46,7 +46,7 @@ export default function Portfolio() {
       title: "Bitcoin Tracker",
       demo: "https://bitcoin-tracker-seven.vercel.app/",
       code: "https://github.com/joequint22/bitcoin-tracker.git",
-      context: "TypeScript, React.js, TailwindCSS"
+      context: "TypeScript, React.js, AirCode.io, TailwindCSS"
     },
     {
       id: 10,
