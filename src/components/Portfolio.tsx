@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import ProjectComponent from "./Project";
-// import todoList from "../assets/todo-list.png";
+import todoList from "../assets/todo-list.png";
 // import gallery from "../assets/gallery.png";
-// import hangman from "../assets/hangman.png";
+import wheelOfSuccess from "../assets/hangman.png";
 // import dashboard from "../assets/dashboard.png";
 // import directory from "../assets/directory.png";
 // import portPic from "../assets/port-pic.png";
@@ -88,15 +88,15 @@ export default function Portfolio() {
     //   code: "https://github.com/joequint22/portfolio-2.git",
     //   context: "TypeScript, React.js, Tailwind CSS"
     // },
-    // {
-    //   id: 5,
-    //   src: todoList,
-    //   title: "Order of the Day",
-    //   demo: "https://todo-list-five-gold.vercel.app/",
-    //   code: "https://github.com/joequint22/todo-2.git",
-    //   context: "TypeScript, React.js, Tailwind CSS"
+    {
+      id: 5,
+      src: todoList,
+      title: "Order of the Day",
+      demo: "https://todo-list-five-gold.vercel.app/",
+      code: "https://github.com/joequint22/todo-2.git",
+      context: "TypeScript, React.js, Tailwind CSS"
 
-    // },
+    },
     // {
     //   id: 4,
     //   src: directory,
@@ -106,15 +106,15 @@ export default function Portfolio() {
     //   context: 'JavaScript, CSS, HTML'
     // },
     
-    // {
-    //   id: 3,
-    //   src: hangman,
-    //   title: "French Greetings",
-    //   demo: "https://joequint22.github.io/techdegree-project-6/",
-    //   code: "https://github.com/joequint22/techdegree-project-6.git",
-    //   context: 'JavaScript, CSS, HTML'
+    {
+      id: 3,
+      src: wheelOfSuccess,
+      title: "French Greetings",
+      demo: "https://joequint22.github.io/techdegree-project-6/",
+      code: "https://github.com/joequint22/techdegree-project-6.git",
+      context: 'JavaScript, CSS, HTML'
 
-    // },
+    },
     // {
     //   id: 2,
     //   src: dashboard,
